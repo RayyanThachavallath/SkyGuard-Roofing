@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyGuard Roofing</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <button class="chat-btn" id="chat-btn">
+        <div class="content-wrapper">
+            <i class="fa-regular fa-message my-auto"></i>
+            <h5 class="my-auto">Lets Chat</h5>
+        </div>
+    </button>
+    <div class="hamburger-menu" id="hamburger-menu">
+        <i class="fa-solid fa-x" id="ham-close-btn"></i>
+
+        <div class="content-wrapper">
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+                <a href="service.html">
+                    <li>Services</li>
+                </a>
+                <a href="faq.html">
+                    <li>FAQ's</li>
+                </a>
+            </ul>
+
+            <button>Contact Us</button>
+
+        </div>
+    </div>
+    <header class="navbar mx-auto">
+        <div class="row nav-links">
+            <a href="index.html" class="nav-logo-a"> <img src="assets/images/logo-no-bg.png"
+                    alt="Skyguard Roofing Solutions Logo" class="navbar-logo">
+            </a>
+            <ul class="my-auto">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+                <a href="service.html">
+                    <li>Services</li>
+                </a>
+                <a href="faq.html">
+                    <li>FAQ's</li>
+                </a>
+            </ul>
+            <div class="row contact-hamburger-row">
+                <button class="my-auto reverse-hover-button" onclick="window.location.href='contact.html'">Contact
+                    Us</button>
+                <i class="fa-solid fa-bars-staggered hamburger-icon my-auto" id="hamburger-btn"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="cover-section">
+        <div class="carousel-wrapper">
+            <div class="carousel-slider" id="carousel-slider">
+                <div class="slider"><img src="assets/images/cover-image1.jpg" alt="">
+                    <div class="slider-contents">
+                        <h2 class="mx-5 m-auto">We Cover What <br>Matters Most.</h2>
+                        <p class="mx-5 m-auto">Durable roofing solutions designed for Kerala’s <br> monsoon challenges.
+                        </p>
+                        <div class="cover-btn-wrapper">
+                            <button onclick="window.location.href='contact.html'">Get a Quote !</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider"><img src="assets/images/cover-image-2.jpg" alt="">
+                    <div class="slider-contents">
+                        <h2 class="mx-5 m-auto">Roofing You Can <br> Rely On.</h2>
+                        <p class="mx-5 m-auto">Specialists in residential and commercial roofing, waterproofing, <br>
+                            and emergency repairs.</p>
+                        <div class="cover-btn-wrapper">
+                            <button onclick="window.location.href='contact.html'"> Schedule a Free Inspection</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider"><img src="assets/images/cover-image-3.jpg" alt="">
+                    <div class="slider-contents">
+                        <h2 class="mx-5 m-auto">Strong Roofs, Lasting <br> Protection.</h2>
+                        <p class="mx-5 m-auto">From tiles to leaks — we’ve got your roof, and your <br> peace of mind,
+                            covered.</p>
+                        <div class="cover-btn-wrapper">
+                            <button onclick="window.location.href='contact.html'"> Talk to a Roofing Expert</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider"><img src="assets/images/cover-image-4.jpg" alt="">
+                    <div class="slider-contents">
+                        <h2 class="mx-5 m-auto">Shielding Homes. Securing Futures.</h2>
+                        <p class="mx-5 m-auto">Kerala’s trusted experts in roofing, waterproofing, and long-term <br>
+                            protection since 2015.</p>
+                        <div class="cover-btn-wrapper">
+                            <button onclick="window.location.href='contact.html'">Protect Your Roof Today</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-btn next" id="nextBtn">&#10095;</button>
+            <button class="carousel-btn prev" id="prevBtn">&#10094;</button>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 my-5">
+                    <p class="mini-title">ABOUT US</p>
+                    <h2 class="about-title">Your Trusted Roofing Partner</h2>
+
+                    <p class="about">Established in 2015 in Kochi, we provide reliable roofing solutions built to handle
+                        Kerala’s
+                        heavy rains. From residential tile and metal roofs to commercial and industrial projects, our
+                        team delivers expert craftsmanship with timely service. We also offer roof waterproofing, leak
+                        repairs, and annual maintenance—ensuring long-term protection. Trusted by homeowners, builders,
+                        and businesses alike, we’re here to cover what matters most.</p>
+                    <button class="about-btn about-btn-1" onclick="window.location.href='about.html'">Find More
+                        ></button>
+                    <button class="about-btn about-btn-2 " onclick="window.location.href='contact.html'">Connect
+                        Us</button>
+                </div>
+                <div class="col-md-6 my-5">
+                    <img src="assets/images/about-img.jpg" alt="Roofing Image SkyGuard Roofing" class="about-img">
+                    <div class="counter-wrapper">
+                        <div class="counter-container counter-elements">
+                            <h3 class="counter">100</h3>
+                            <p class="mx-3">Works Completed</p>
+                        </div>
+                        <div class="counter-sub-container-row">
+                            <div class="counter-sub-container counter-elements">
+                                <h3 class="counter-1 counter">90</h3>
+                                <p class="mx-3">Happy Clients</p>
+                            </div>
+                            <div class="counter-sub-container counter-elements">
+                                <h3 class="counter-2 counter">98</h3>
+                                <p class="mx-3">Client Satisfaction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-section my-2">
+        <div class="container text-center">
+            <p class="mini-title mx-auto">OUR SERVICES</p>
+            <h2 class="service-title">Services That<br> Keep You Covered</h2>
+        </div>
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="card card-1">
+                        <img src="assets/images/services-img-1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Residential Roofing Services</h5>
+                            <p class="card-text">We specialize in clay tile, asphalt, metal, and concrete roofing
+                                designed to enhance your home's look while standing strong against Kerala’s intense
+                                monsoon climate. Our residential roofing solutions are crafted for durability,
+                                aesthetics, and long-term protection.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="assets/images/service img 2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Commercial & Industrial Roofing</h5>
+                            <p class="card-text">From apartment complexes to warehouses, we deliver high-performance
+                                roofing systems that meet structural demands and regulatory standards. Our team ensures
+                                every commercial or industrial roof is engineered for longevity, safety, and efficiency.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card card-1">
+                        <img src="assets/images/service img 3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Waterproofing & Roof Inspections</h5>
+                            <p class="card-text">Protect your property with advanced waterproofing solutions and
+                                thorough roof inspections. We detect early signs of wear, prevent costly leaks, and
+                                extend your roof’s life with proactive care and precision sealing techniques.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="assets/images/service img 4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Emergency Leak Repairs</h5>
+                            <p class="card-text">Roof leaking during heavy rains? We provide rapid, on-call leak repair
+                                services to prevent further water damage. Our team responds quickly, diagnoses the issue
+                                on-site, and applies fast, lasting fixes to restore your roof’s integrity.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card card-1">
+                        <img src="assets/images/service img 5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Annual Roof Maintenance Packages</h5>
+                            <p class="card-text">Roof leaking during heavy rains? We provide rapid, on-call leak repair
+                                services to prevent further water damage. Our team responds quickly, diagnoses the issue
+                                on-site, and applies fast, lasting fixes to restore your roof’s integrity.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card card">
+                        <img src="assets/images/service img 6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tile & Sheet Replacement</h5>
+                            <p class="card-text">Whether it’s cracked clay tiles, worn-out shingles, or corroded metal
+                                sheets, we provide expert partial or full roof replacements using high-quality materials
+                                — restoring durability, protection, and appearance.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="faq-section my-5">
+        <div class="container">
+            <div class="container text-center">
+                <p class="mini-title mx-auto">FAQ's</p>
+                <h2 class="faq-title">Find Your Solutions Here !</h2>
+            </div>
+            <div class="accordion accordion-flush my-5" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            What roofing services do you offer?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">We specialize in residential and commercial roofing, including roof
+                            installations, repairs, inspections, waterproofing, and storm damage restoration.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            How do I know if my roof needs to be replaced or just repaired?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Our expert team provides a free inspection to assess your roof’s
+                            condition. If the damage is localized, a repair may suffice. For widespread issues or aging
+                            roofs, replacement is often more cost-effective.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            How long does a typical roof replacement take?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Most residential roofing projects are completed within 1–3 days,
+                            depending on the roof size and weather conditions. We always aim for minimal disruption and
+                            maximum quality.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            Are your services covered by warranty?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Yes! We offer up to 10 years workmanship warranty along with
+                            manufacturer warranties on all roofing materials used.</div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact-section">
+        <div class="container text-center">
+            <p class="mini-title mx-auto">CONTACT US</p>
+            <h2 class="contact-title">Get In Touch !</h2>
+        </div>
+        <div class="container mx-auto">
+            <div class="row">
+                <div class="col-md-6 mx-auto my-3" style="position: relative;">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+                    <input type="email" class="form-control" id="exampleFormControlInput2"
+                        placeholder="name@example.com">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                        placeholder="Message"></textarea>
+                    <button class="contact-form-submit">Submit</button>
+                </div>
+                <div class="col-md-6 my-3">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d583.9192313728795!2d76.33172107828386!3d10.08886662417844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1748743358580!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/images/logo.png" alt="" class="footer-logo m-auto">
+                </div>
+                <div class="col-md-3 footer-links">
+                    <div class="footer-links-wrapper m-3">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <a href="index.html">
+                                <li>Home</li>
+                            </a>
+                            <a href="about.html">
+                                <li>About Us</li>
+                            </a>
+                            <a href="service.html">
+                                <li>Services</li>
+                            </a>
+                            <a href="faq.html">
+                                <li>FAQ's</li>
+                            </a>
+                            <a href="contact.html">
+                                <li>Contact Us</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 footer-services">
+                    <div class="footer-services-wrapper m-3">
+                        <h3>Services</h3>
+                        <ul>
+                            <li>Residential Roofing Services</li>
+                            <li>Commercial And Industrial Roofing</li>
+                            <li>Waterproofing and Roofing Inspections</li>
+                            <li>Emergency Leak Repairs</li>
+                            <li>Annual Roof Maintenance Packages</li>
+                            <li>Tile and sheet Replacement</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 footer-contact">
+                    <div class="footer-contact-wrapper m-3">
+                        <h3>Contact Us</h3>
+                        <div class="contact-item mb-2">
+                            <div class="contact-row">
+                                <i class="fa-solid fa-location-dot my-auto"></i>
+                                <div class="text-content">
+                                    <p class="my-auto">SkyGuard Roofing Solutions, Kakkanad, Kochi, Kerala, India</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-item mb-2">
+                            <div class="contact-row">
+                                <i class="fa-solid fa-phone my-auto"></i>
+                                <div class="text-content">
+                                    <ul class="my-auto">
+                                        <li>+91 98472 12345</li>
+                                        <li>+91 80782 67890</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-item mb-2">
+                            <div class="contact-row">
+                                <i class="fa-solid fa-envelope my-auto"></i>
+                                <div class="text-content">
+                                    <p class="my-auto">support@skyguardroofing.in</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <h6 class="credits">Designed and Developed by Brandign Designs</h6>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap 5.3.3 (Only ONE version!) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- CounterUp Plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/waypoints/lib/jquery.waypoints.min.js"></script>
+
+    <!-- Swiper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
